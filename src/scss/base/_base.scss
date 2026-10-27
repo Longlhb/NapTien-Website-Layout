@@ -1,0 +1,113 @@
+@use "../abstract/" as abs;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.8rem;
+}
+
+button,
+input,
+textarea,
+select {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Quicksand";
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 7.2rem;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h4 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+}
+
+h5 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+}
+
+h6 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+}
+
+.paragraph-1,
+.paragraph-2,
+.paragraph-3 {
+    color: var(--Secondary-Colors-01, #04112a);
+    font-family: "Manrope";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.paragraph-2 {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+.paragraph-3 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.white-color {
+    color: abs.$white-color;
+}
+
+.black-color {
+    color: abs.$black-color;
+}
+
+.primary-color {
+    color: abs.$primary-color;
+}

@@ -1,0 +1,12 @@
+/* common css */
+@use "./base" as base;
+@use "./abstract" as abs;
+
+/* layout css */
+@use "./layout" as layout;
+
+/* components css */
+@use "./components" as comp;
+
+/* pages css */
+@use "./pages" as page;

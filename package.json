@@ -1,0 +1,19 @@
+{
+    "scripts": {
+        "dev": "concurrently \"npm:dev:vite\" \"npm:dev:sass\"",
+        "dev:vite": "vite",
+        "dev:sass": "sass --watch src/scss/main.scss:src/assets/css/main.css",
+        "build": "vite build",
+        "deploy": "vite build && gh-pages -d dist"
+    },
+    "dependencies": {
+        "gh-pages": "^6.3.0",
+        "sass": "^1.105.2",
+        "vite": "^8.3.4",
+        "vite-plugin-ejs": "^2.0.0"
+    },
+    "devDependencies": {
+        "concurrently": "^10.0.6",
+        "vite-plugin-full-reload": "^1.2.0"
+    }
+}

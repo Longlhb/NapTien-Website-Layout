@@ -1,0 +1,60 @@
+// grid-system (max-width)
+$grid-breakpoints: (
+    xxl: 1400px,
+    xl: 1399.98px,
+    lg: 1199.98px,
+    md: 991.98px,
+    sm: 767.98px,
+    xs: 575.98px,
+);
+
+$container-max-widths: (
+    xxl: 1320px,
+    xl: 1140px,
+    lg: 960px,
+    md: 720px,
+    sm: 540px,
+    xs: 100%,
+);
+
+$gutters: (
+    0: 0,
+    1: 0.25,
+    2: 0.5,
+    3: 1,
+    4: 1.5,
+    5: 3,
+);
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 24px !default;
+
+/* colors */
+
+$primary-color: #ed5a25;
+$secondary-color-12: #fff4f1;
+
+$text-color-01: #323232;
+$text-color-02: #3e3e3e;
+$text-color-03: #565656;
+$text-color-4: #787777;
+
+$black-color: #000;
+
+$greys-color-01: #404040;
+$greys-color-02: #5c5c5c;
+$greys-color-03: #aeaeae;
+$greys-color-04: #c8c8c8;
+$greys-color-05: #e5e5e5;
+$greys-color-06: #f2f2f2;
+
+$white-color: #fff;
+
+$background-02: #ededed;
+
+/* font */
+$paragraph-font: "Manorope", sans-serif;
+$heading-font: "Quicksand", sans-serif;
+$body-font: "Quicksand", sans-serif;
+$menu-font: "Inter", sans-serif;
+$Popins-font: "Poppins", sans-serif;
